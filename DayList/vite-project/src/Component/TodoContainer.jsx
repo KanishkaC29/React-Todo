@@ -10,7 +10,7 @@ export default function TodoContainer({todo,delTodo,index}) {
     <p>{todo}</p>
     <div className='actions'>
     <input type="checkbox" />
-    <button onClick={()=>delTodo(index)}>Delete</button>
+    <button onClick={()=>delTodo(index)}>Remove</button>
     </div>
   </div>
 </div>
